@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background-color: #e8e8e8;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: unset;
+}
+
+header {
+  background-color: #ffe500;
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+nav {
+  color: #636363;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav h1 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.nav-items {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+nav a {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.card {
+  border-radius: 4px;
+  border: 1px solid #d9d9d9;
+  background: #fff;
+}
+
+.line-bottom {
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.btn-product-datails {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.btn {
+  width: 220px;
+  height: 42px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.btn-blue {
+  background: #3483fa;
+  color: #ffffff;
+}
+
+.btn-white {
+  border: 1px solid #3483fa;
+  background: #ffffff;
+  color: #3483fa;
+}
